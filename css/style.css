@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #32425c;
+  text-transform: capitalize;
+
+  background-color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  height: 60px;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-transform: none;
+  text-align: left;
+  color: #ee3643;
+}
+
+.main-menu {
+  width: 1200px;
+  height: 42px;
+  color: #ffffff;
+  background-color: #293449;
+}
+
+.main-menu a {
+  color: #ffffff;
+}
+
+.logo-back {
+  width: 220px;
+  height: 47px;
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+  background-color: #ee3643;
+}
+
+.logo {
+  width: 109px;
+  height: 19px;
+  object-fit: contain;
+}
+
+.icon-search {
+  width: 17px;
+  height: 17px;
+  object-fit: contain;
+  opacity: 0.3;
+  color: #ffffff;
+}
+
+.icon-bookmark {
+  width: 14px;
+  height: 16px;
+  object-fit: contain;
+  opacity: 0.3;
+  color: #ffffff;
+}
+
+.cart-icon {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  opacity: 0.3;
+  color: #ffffff;
+}
+
+.make-order-button {
+  width: 150px;
+  height: 42px;
+  background-color: #63a63e;
+}
+
+.top-background {
+  width: 1200px;
+  height: 320px;
+  background-color: #f4f7f9;
+}
+
+.icon-phone {
+  width: 19px;
+  height: 19px;
+  object-fit: contain;
+}
+
+.phone-back {
+  width: 270px;
+  height: 45px;
+  border: solid 3px #ffffff;
+}
+
+.phone {
+
+  height: 21px;
+
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ee3643;
+}
+
+.address-top {
+  height: 13px;
+
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-transform: none;
+  text-align: center;
+  color: #32425c;
+}
+
+.icon-login {
+  width: 20px;
+  height: 17px;
+  object-fit: contain;
+  color: #c5c5c5;
+}
+
+.login {
+  width: 121px;
+  height: 45px;
+  background-color: #ffffff;
+
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+
+  list-style: none;
+}
+
+.register {
+  width: 150px;
+  height: 45px;
+  background-color: #ffffff;
+
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+
+  list-style: none;
+}
+
+/*.main-navigation {
+  width: 940px;
+  height: 60px;
+  box-shadow: inset 0px -5px 0 0 #293449;
+  background-color: #32425c;
+  color: #ffffff;
+}*/
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+
+.user-navigation a {
+  color: #000000;
+}
+
+.user-navigation a:hover,
+.user-navigation a:focus {
+  color: #ee3643;
+}
+
+.site-navigation a {
+  width: 127px;
+  height: 60px;
+  background-color: #32425c;
+  box-shadow: inset 0px -5px 0 0 #293449;
+  color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  background-color: #293449;
+}
+
+h2 {
+  /*width: 300px;*/
+  height: 21px;
+  font-family: Cuprum;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+p {
+  width: 519px;
+  height: 37px;
+  font-family: Cuprum;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.about p{
+  width: 386px;
+ height: 161px;
+ font-family: Cuprum;
+ font-size: 13px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.85;
+ letter-spacing: normal;
+ text-align: left;
+ color: #000000;
+}
+
+.name-delivery {
+  font-family: Cuprum;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+
+  list-style-type: none;
+}
+
+.name-delivery li::before {
+  content:"-";
+  width: 25px;
+  height: 2px;
+  color: #ee3643;
+}
+
+.company-button {
+  width: 220px;
+  height: 38px;
+  background-color: #ee3643;
+
+  font-family: Cuprum;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-transform: none;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+.map {
+  width: 300px;
+  height: 158px;
+  object-fit: contain;
+}
+
+.feedback-button {
+  width: 300px;
+  height: 38px;
+  background-color: #ee3643;
+}
