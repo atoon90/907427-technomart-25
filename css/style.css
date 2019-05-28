@@ -6,7 +6,6 @@ body {
   line-height: 24px;
   font-weight: 700;
   color: #32425c;
-  text-transform: capitalize;
 
   background-color: #FFFFFF;
 }
@@ -16,8 +15,6 @@ a {
 }
 
 h1 {
-  height: 60px;
-
   font-size: 16px;
   font-weight: normal;
   font-style: italic;
@@ -102,9 +99,6 @@ h1 {
 }
 
 .phone {
-
-  height: 21px;
-
   font-size: 21px;
   font-weight: normal;
   font-style: normal;
@@ -116,15 +110,12 @@ h1 {
 }
 
 .address-top {
-  height: 13px;
-
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.71;
   letter-spacing: normal;
-  text-transform: none;
   text-align: center;
   color: #32425c;
 }
@@ -179,7 +170,8 @@ h1 {
 }*/
 
 .site-navigation,
-.user-navigation {
+.user-navigation,
+.site-navigation-footer {
   list-style: none;
 }
 
@@ -193,8 +185,6 @@ h1 {
 }
 
 .site-navigation a {
-  width: 127px;
-  height: 60px;
   background-color: #32425c;
   box-shadow: inset 0px -5px 0 0 #293449;
   color: #ffffff;
@@ -206,8 +196,6 @@ h1 {
 }
 
 h2 {
-  /*width: 300px;*/
-  height: 21px;
   font-family: Cuprum;
   font-size: 30px;
   font-weight: normal;
@@ -220,8 +208,6 @@ h2 {
 }
 
 p {
-  width: 519px;
-  height: 37px;
   font-family: Cuprum;
   font-size: 13px;
   font-weight: normal;
@@ -234,8 +220,6 @@ p {
 }
 
 .about p{
-  width: 386px;
- height: 161px;
  font-family: Cuprum;
  font-size: 13px;
  font-weight: normal;
@@ -296,4 +280,319 @@ p {
   width: 300px;
   height: 38px;
   background-color: #ee3643;
+
+  font-family: Cuprum;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.text {
+  font-family: Cuprum;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.modal button {
+  font-family: Cuprum;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ee3643;
+}
+.footer-back {
+  width: 1200px;
+  height: 300px;
+  background-color: #32425c;
+}
+
+.site-navigation-footer a {
+  background-color: #32425c;
+  box-shadow: inset 0px -5px 0 0 #293449;
+  color:#ffd180;
+}
+
+.address-footer p {
+  font-family: Cuprum;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f3f7f9;
+  background-color: #32425c;
+}
+
+.footer-copyright {
+  font-family: Cuprum;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  background-color: #293449;
+}
+
+.social-network-icon {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+
+  color: #ffffff;
+  background-color: #212a3a;
+  list-style: none;
+}
+
+.feedback-email {
+  font-family: Cuprum;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffd180;
+}
+
+.feedback-email b {
+  font-family: Cuprum;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.developed b {
+  font-family: Cuprum;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.developed a {
+  font-family: Cuprum;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffd180;
+}
+
+.sing-in {
+  font-family: Cuprum;
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.icon-user {
+  width: 20px;
+  height: 18px;
+  object-fit: contain;
+  background-color: #c5c5c5;
+}
+
+.icon-logout {
+  width: 20px;
+  height: 17px;
+  object-fit: contain;
+  background-color: #c5c5c5;
+}
+
+.account-link {
+  font-family: Cuprum;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #32425c;
+}
+
+.breadcrumbs {
+  font-family: PTSans;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.icon-home {
+  width: 14px;
+  height: 12px;
+  object-fit: contain;
+  background-color: #c5c5c5;
+}
+
+.breadcrumbs-current {
+  font-family: Cuprum;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #32425c;
+}
+
+.title-filter {
+  font-family: PTSans;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.76;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.filter-input-checkbox{
+  font-family: PTSans;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.filter-input-radio{
+  font-family: PTSans;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.filter-button {
+  font-family: PTSans;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.catalog-item {
+  font-family: PTSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.catalog-item-price-strike {
+  font-family: PTSans;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.06;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999;
+}
+
+.catalog-item-price {
+  font-family: PTSans;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.06;
+  letter-spacing: normal;
+  text-align: center;
+  color:#ffffff
+}
+
+.button-buy {
+  width: 135px;
+  height: 38px;
+  box-shadow: inset 0px -3px 0 0 #367315;
+  background-color: #63a63e;
+
+  font-family: Cuprum;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  background-color:
+  color: #ffffff;
+}
+
+.button-mark {
+  width: 135px;
+  height: 38px;
+  border: solid 3px #63a63e;
+  font-family: Cuprum;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #32425c;
 }
