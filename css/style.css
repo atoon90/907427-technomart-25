@@ -22,6 +22,16 @@ body {
   color: #ee3643;
 }
 
+.union {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 50px;
+}
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}
 .main-menu {
   color: #ffffff;
   display: flex;
@@ -35,7 +45,7 @@ body {
 .container {
   width: 940px;
   margin: 0 auto;
-  padding: 0 10 px;
+  padding: 0 10px;
 }
 
 .logo-back {
@@ -132,14 +142,17 @@ body {
   list-style: none;
 }
 
+.
 
 .site-navigation,
 .user-navigation,
 .site-navigation-footer {
   list-style: none;
+/*  display: flex;
+  flex-wrap: wrap;*/
 }
 
-.user-navigation a {
+.user-navigation-a {
   text-decoration: none;
   color: #000000;
 }
@@ -149,6 +162,11 @@ body {
   color: #ee3643;
 }
 
+.site-navigation-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .main-navigation {
   background-color: #32425c;
   box-shadow: inset 0px -5px 0 0 #293449;
@@ -212,7 +230,7 @@ body {
   color: #ffffff;
 }
 
-.modal p {
+.modal-p {
   width: 180px;
 }
 .map {
