@@ -14,6 +14,28 @@ body {
   background-color: #FFFFFF;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .title-h1 {
   font-size: 16px;
   font-style: italic;
@@ -41,6 +63,8 @@ body {
 .main-menu a {
   text-decoration: none;
   color: #ffffff;
+  display:block;
+  padding: 14px 28px 13px 44px;
 }
 .container {
   width: 940px;
@@ -48,13 +72,17 @@ body {
   padding: 0 10px;
 }
 
-.logo-back {
-  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
-  background-color: #ee3643;
+.logo {
+  width: 109px;
+  height: 19px;
+  object-fit: contain;
 }
 
-.logo {
-  object-fit: contain;
+.logo-background {
+  padding: 13px 56px 15px 55px;
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+  background-size: 220px 47px;
+  background-color: #ee3643;
 }
 
 .icon-search {
