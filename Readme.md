@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Атунь Церенова](https://up.htmlacademy.ru/htmlcss/25/user/907427).
-* Наставник: [Александр Пасунько](https://htmlacademy.ru/profile/id702351).
+* Наставник: [Анна Линькова](https://htmlacademy.ru/profile/id1015999).
 
 ---
 
