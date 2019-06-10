@@ -66,7 +66,7 @@ input[type="radio"].visually-hidden {
 }
 .main-menu .logo-background {
   padding: 13px 56px 10px 55px;
-  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+  box-shadow: inset 0px -5px 0px 0px rgba(0, 0, 0, 0.24);
   background-size: 220px 47px;
   background-color: #ee3643;
 }
@@ -88,6 +88,19 @@ input[type="radio"].visually-hidden {
   height: 19px;
   object-fit: contain;
 }
+.background-search {
+  border: 0;
+  background-color: #293449;
+  color: #ffffff;
+  display: block;
+  padding-top: 14px;
+  padding-right: 28px;
+  padding-bottom: 16px;
+}
+.background-search::-webkit-input-placeholder {color:#ffffff;}/* webkit */
+.background-search::-moz-placeholder          {color:#ffffff;}/* Firefox 19+ */
+.background-search:-moz-placeholder           {color:#ffffff;}/* Firefox 18- */
+.background-search:-ms-input-placeholder      {color:#ffffff;}/* IE */
 .icon-search {
   position: relative;
   padding-left: 50px;
@@ -169,18 +182,14 @@ input[type="radio"].visually-hidden {
 }
 
 .column-item {
-  width: 300px;
   text-align: center;
-}
-
-.icon-phone {
-  object-fit: contain;
 }
 
 .phone-back {
   /*margin-top: 46px;*/
-  padding: 13px 52px 11px 74px;
+  padding: 13px 45px 11px 74px;
   border: solid 3px #ffffff;
+  background-image: url(img/icon-phone.svg);
 }
 
 .phone {
@@ -198,8 +207,9 @@ input[type="radio"].visually-hidden {
 }
 
 .login {
+  display: block;
+  padding: 14px 27px 15px 48px;
   position: relative;
-  padding-left: 48px;
   background-color: #ffffff;
 
   font-size: 21px;
@@ -218,15 +228,17 @@ input[type="radio"].visually-hidden {
   width: 15px;
   height: 15px;
 
-  background-image: url("img/icon-login.svg");
+  background-image: url(img/icon-login.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
 
   background-color: #c5c5c5;
 }
 .register {
+  display: block;
+  padding: 14px 25px 11px 25px;
   background-color: #ffffff;
-
+  max-width: 150px;
   font-size: 21px;
   line-height: 1;
   color: #000000;
@@ -234,8 +246,14 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
+.user-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+
 .site-navigation,
-.user-navigation,
 .site-navigation-footer {
   display: flex;
   flex-wrap: wrap;
@@ -245,14 +263,17 @@ input[type="radio"].visually-hidden {
 .user-navigation a {
   text-decoration: none;
   color: #000000;
-  display:block;
-  padding: 14px 27px 15px 48px;
   margin-right: 10px;
 }
 
 .user-navigation a:hover,
 .user-navigation a:focus {
   color: #ee3643;
+}
+
+.site-navigation-top a {
+  display: block;
+  padding: 22px 31px 26px 31px;
 }
 
 .site-navigation-top {
@@ -388,12 +409,12 @@ input[type="radio"].visually-hidden {
   flex-wrap: wrap;
   padding: 0;
   margin-right: 5px;
-  align-items: center;
-  justify-content: space-between;
+  /*align-items: center;
+  justify-content: space-between;*/
   list-style: none;
 }
 .social-network-icon {
-  width: 130px;
+  /*width: 130px;*/
   object-fit: contain;
   color: #ffffff;
   background-color: #212a3a;
